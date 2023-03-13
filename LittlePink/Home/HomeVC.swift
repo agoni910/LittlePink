@@ -14,6 +14,7 @@ class HomeVC: ButtonBarPagerTabStripViewController {
     override func viewDidLoad() {
         
         // MARK: 自定义tabUI
+        // MARK: -
         settings.style.selectedBarBackgroundColor = UIColor(named: "main")!
         settings.style.selectedBarHeight = 3
         
@@ -26,8 +27,16 @@ class HomeVC: ButtonBarPagerTabStripViewController {
         
         super.viewDidLoad()
         
+        containerView.bounces = false
         
-        
+        // 选中按钮变色
+        changeCurrentIndexProgressive = { (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
+            guard changeCurrentIndex == true else { return }
+            
+            oldCell?.label.textColor = .secondaryLabel
+            newCell?.label.textColor = .label
+        }
+       
 
         // Do any additional setup after loading the view.
     }
@@ -42,7 +51,7 @@ class HomeVC: ButtonBarPagerTabStripViewController {
         
         let discoveryVC = storyboard!.instantiateViewController(identifier: kDiscoveryVCID)
         let nearByVC = storyboard!.instantiateViewController(identifier: kNearByVCID)
-        return [followVC, discoveryVC, nearByVC]
+        return [discoveryVC, followVC, nearByVC]
     }    /*
     // MARK: - Navigation
 

@@ -12,6 +12,7 @@
 		4CAEEF3429BB647200C5E2F7 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF3329BB647200C5E2F7 /* DiscoveryVC.swift */; };
 		4CAEEF3629BB64B600C5E2F7 /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF3529BB64B600C5E2F7 /* NearByVC.swift */; };
 		4CAEEF3829BB695500C5E2F7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF3729BB695500C5E2F7 /* Constants.swift */; };
+		4CBD91E529BF5FD000029895 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBD91E429BF5FD000029895 /* WaterfallCell.swift */; };
 		4CEA9C3729B2FC7B006FABA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA9C3629B2FC7B006FABA3 /* AppDelegate.swift */; };
 		4CEA9C3929B2FC7B006FABA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA9C3829B2FC7B006FABA3 /* SceneDelegate.swift */; };
 		4CEA9C3E29B2FC7B006FABA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA9C3C29B2FC7B006FABA3 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		4CEA9C4329B2FC7D006FABA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA9C4229B2FC7D006FABA3 /* Assets.xcassets */; };
 		4CEA9C4629B2FC7D006FABA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA9C4429B2FC7D006FABA3 /* LaunchScreen.storyboard */; };
 		4CEA9C4E29B2FD08006FABA3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA9C4D29B2FD08006FABA3 /* .gitignore */; };
+		4CEFD10D29BF231500DE0D60 /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFD10C29BF231500DE0D60 /* WaterfallVC.swift */; };
 		62D3C2F5B1D3C7BF8EE28278 /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741A4E7B2B6DA0FB07FBE449 /* Pods_LittlePink.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,7 @@
 		4CAEEF3329BB647200C5E2F7 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
 		4CAEEF3529BB64B600C5E2F7 /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
 		4CAEEF3729BB695500C5E2F7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4CBD91E429BF5FD000029895 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		4CEA9C3329B2FC7B006FABA3 /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEA9C3629B2FC7B006FABA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEA9C3829B2FC7B006FABA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 		4CEA9C4529B2FC7D006FABA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CEA9C4729B2FC7D006FABA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CEA9C4D29B2FD08006FABA3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4CEFD10C29BF231500DE0D60 /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
 		741A4E7B2B6DA0FB07FBE449 /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DB6E2824973BC175977666 /* Pods-LittlePink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.release.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.release.xcconfig"; sourceTree = "<group>"; };
 		A2CC0B22267EDB8AF6556280 /* Pods-LittlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,8 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				4CAEEF2D29BB2CEF00C5E2F7 /* HomeVC.swift */,
-				4CAEEF3129BB643600C5E2F7 /* FollowVC.swift */,
 				4CAEEF3329BB647200C5E2F7 /* DiscoveryVC.swift */,
+				4CAEEF3129BB643600C5E2F7 /* FollowVC.swift */,
 				4CAEEF3529BB64B600C5E2F7 /* NearByVC.swift */,
 			);
 			path = Home;
@@ -97,6 +101,8 @@
 			children = (
 				4CEA9C3629B2FC7B006FABA3 /* AppDelegate.swift */,
 				4CEA9C3829B2FC7B006FABA3 /* SceneDelegate.swift */,
+				4CEFD10C29BF231500DE0D60 /* WaterfallVC.swift */,
+				4CBD91E429BF5FD000029895 /* WaterfallCell.swift */,
 				4C433DB129BC8E38001FCBAA /* Home */,
 				4CEA9C3C29B2FC7B006FABA3 /* Main.storyboard */,
 				4CAEEF3729BB695500C5E2F7 /* Constants.swift */,
@@ -235,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CAEEF3629BB64B600C5E2F7 /* NearByVC.swift in Sources */,
+				4CEFD10D29BF231500DE0D60 /* WaterfallVC.swift in Sources */,
 				4CEA9C3729B2FC7B006FABA3 /* AppDelegate.swift in Sources */,
 				4CAEEF2E29BB2CEF00C5E2F7 /* HomeVC.swift in Sources */,
 				4CAEEF3229BB643600C5E2F7 /* FollowVC.swift in Sources */,
@@ -242,6 +249,7 @@
 				4CEA9C4129B2FC7B006FABA3 /* LittlePink.xcdatamodeld in Sources */,
 				4CAEEF3429BB647200C5E2F7 /* DiscoveryVC.swift in Sources */,
 				4CAEEF3829BB695500C5E2F7 /* Constants.swift in Sources */,
+				4CBD91E529BF5FD000029895 /* WaterfallCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

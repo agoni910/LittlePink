@@ -77,6 +77,15 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		4CDC6DA829C070C2002448A7 /* Waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFD10C29BF231500DE0D60 /* WaterfallVC.swift */,
+				4CBD91E429BF5FD000029895 /* WaterfallCell.swift */,
+			);
+			path = Waterfall;
+			sourceTree = "<group>";
+		};
 		4CEA9C2A29B2FC7B006FABA3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +110,7 @@
 			children = (
 				4CEA9C3629B2FC7B006FABA3 /* AppDelegate.swift */,
 				4CEA9C3829B2FC7B006FABA3 /* SceneDelegate.swift */,
-				4CEFD10C29BF231500DE0D60 /* WaterfallVC.swift */,
-				4CBD91E429BF5FD000029895 /* WaterfallCell.swift */,
+				4CDC6DA829C070C2002448A7 /* Waterfall */,
 				4C433DB129BC8E38001FCBAA /* Home */,
 				4CEA9C3C29B2FC7B006FABA3 /* Main.storyboard */,
 				4CAEEF3729BB695500C5E2F7 /* Constants.swift */,
